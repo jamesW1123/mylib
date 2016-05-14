@@ -1,10 +1,8 @@
 package mylib.sort;
 
-import java.util.Arrays;
-
 public class RadixSort{
 
-    public static int[] sort(int[] array){
+    public static int[] radixSort(int[] array){
 
 	int max = getMax(array);
 	
@@ -29,10 +27,9 @@ public class RadixSort{
 	int[] a = {34, 7865, 124, 98, 2349, 982347234, 234, 456, 123,
 		2345, 245, 7, 9276, 8192363};
 	
-	a = sort(a);
+	a = radixSort(a);
 	
 	for(int i : a)
-	    System.out.print(i + ", ");
-	
+	    System.out.print(i + ", ");	
     }    
 }

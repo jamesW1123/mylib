@@ -9,11 +9,13 @@ public class Node<T>{
     public Node(){
 	
 	this.value = null;
+	next = null;
     }
 
     public Node(T value){
 	
 	this.value = value;
+	next = null;
     }
     
     public void setValue(T value){

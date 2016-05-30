@@ -45,6 +45,7 @@ public class BFS{
     public static void main(String[] args){
 
 	Graph gr = new Graph(new File("res/tinyDG.txt"));
+	@SuppressWarnings("unused")
 	BFS b = new BFS(gr);
     }
 

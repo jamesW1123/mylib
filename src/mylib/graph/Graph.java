@@ -2,8 +2,9 @@ package mylib.graph;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.LinkedList;
 import java.util.Scanner;
+
+import mylib.structs.LinkedList;
 
 public class Graph{
 
